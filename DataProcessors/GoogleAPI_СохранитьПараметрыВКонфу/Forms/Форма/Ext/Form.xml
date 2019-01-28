@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="ид_клиента" id="1">
+			<DataPath>Объект.ид_клиента</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ид_клиентаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ид_клиентаРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="секрет_клиента" id="4">
+			<DataPath>Объект.секрет_клиента</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="секрет_клиентаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="секрет_клиентаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="customerId" id="7">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="customerIdКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="customerIdРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Порт" id="21">
+			<DataPath>Объект.Порт</DataPath>
+			<ContextMenu name="ПортКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ПортРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<InputField name="ПутьСохраненияНастроек" id="12">
+			<ContextMenu name="ПутьСохраненияНастроекКонтекстноеМеню" id="13"/>
+			<ExtendedTooltip name="ПутьСохраненияНастроекРасширеннаяПодсказка" id="14"/>
+		</InputField>
+		<InputField name="ИмяПапки" id="24">
+			<DataPath>Объект.ИмяПапки</DataPath>
+			<ContextMenu name="ИмяПапкиКонтекстноеМеню" id="25"/>
+			<ExtendedTooltip name="ИмяПапкиРасширеннаяПодсказка" id="26"/>
+		</InputField>
+		<InputField name="ИмяФайла" id="15">
+			<DataPath>Объект.ИмяФайла</DataPath>
+			<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="16"/>
+			<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="17"/>
+		</InputField>
+		<InputField name="ПолныйПутьКФайлуНастроек" id="18">
+			<ContextMenu name="ПолныйПутьКФайлуНастроекКонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="ПолныйПутьКФайлуНастроекРасширеннаяПодсказка" id="20"/>
+		</InputField>
+		<Button name="СохранитьПараметры" id="10">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.СохранитьПараметры</CommandName>
+			<ExtendedTooltip name="СохранитьПараметрыРасширеннаяПодсказка" id="11"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.GoogleAPI_СохранитьПараметрыВКонфу</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СохранитьПараметры" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить параметры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить параметры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьПараметры</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Report uuid="a9c9763e-818e-4edf-83cc-a825ab84ea6a">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.ГлавнаяКнига" category="Object">
+				<xr:TypeId>67808609-8f83-46a8-862c-51a13d005361</xr:TypeId>
+				<xr:ValueId>d3f87c96-76ea-480b-be2b-c686af3347ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.ГлавнаяКнига" category="Manager">
+				<xr:TypeId>3ff907fb-f563-473b-b2a2-148f5c2ce138</xr:TypeId>
+				<xr:ValueId>fe221772-506d-4622-a73b-79c88f011a1d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГлавнаяКнига</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="745e2742-cab1-465b-94d9-fc72d68e6be6">
+				<Properties>
+					<Name>НачалоПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="43dc4271-01a7-4083-8270-11f245fa789b">
+				<Properties>
+					<Name>КонецПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f047eed4-2ea2-406a-881f-ff9a309ca302">
+				<Properties>
+					<Name>ПоСубсчетам</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="49a86ad5-0493-411e-98fd-0e3a13578d66">
+				<Properties>
+					<Name>ПоСубсчетамКорСчетов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e6743d23-5373-4d50-b72a-1e44e75c2a4f">
+				<Properties>
+					<Name>Периодичность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ce93108d-4e6b-4782-a745-00738821c9e8">
+				<Properties>
+					<Name>РазбитьПоЛистам</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="57376f35-be50-4a28-89bb-361db5093b5c">
+				<InternalInfo>
+					<xr:GeneratedType name="ReportTabularSection.ГлавнаяКнига.РазвернутоеСальдо" category="TabularSection">
+						<xr:TypeId>88aa47be-4d2e-430c-96d9-ac04cbe8515c</xr:TypeId>
+						<xr:ValueId>8457022e-a9a2-45e1-93fa-ae6d1ef138c1</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ReportTabularSectionRow.ГлавнаяКнига.РазвернутоеСальдо" category="TabularSectionRow">
+						<xr:TypeId>bbe26dce-9ecc-40ab-8b10-27e2630db513</xr:TypeId>
+						<xr:ValueId>20c4bf81-c910-4a28-a191-ce773051f7bb</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>РазвернутоеСальдо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="71b36b60-5744-4bef-8b33-f49d8be5f583">
+						<Properties>
+							<Name>Использование</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fb742c64-cacd-4648-9ca3-5ab83e4a8ac0">
+						<Properties>
+							<Name>Счет</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="aafec172-248c-4578-998e-ed8ba42a50d8">
+						<Properties>
+							<Name>Представление</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="da06d20d-3194-48c6-b21b-34162f670308">
+						<Properties>
+							<Name>ПоСубсчетам</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="de5517a7-b984-488c-8f89-ba87a04def6f">
+						<Properties>
+							<Name>ПоСубконто</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>6</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаОтчета</Form>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

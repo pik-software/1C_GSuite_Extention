@@ -1,0 +1,213 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.googlespreadsheet.org" elementFormQualified="true" attributeFormQualified="false">
+	<objectType name="AddConditionalFormatRule">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="rule" type="d3p1:ConditionalFormatRule" nillable="true"/>
+		<property name="index" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="AddConditionalFormatRuleRequest">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="addConditionalFormatRule" type="d3p1:AddConditionalFormatRule" nillable="true"/>
+	</objectType>
+	<objectType name="AddProtectedRangeRequest">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="protectedRange" type="d3p1:ProtectedRange" nillable="true"/>
+		<property name="_dummy" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="AddProtectedRangeRequests">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="addProtectedRange" type="d3p1:AddProtectedRangeRequest"/>
+		<property name="_dummy" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="BatchRequestMergeCell">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="mergeCells" type="d3p1:MergeCells" nillable="true"/>
+	</objectType>
+	<objectType name="BatchRequestRepeatCell">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="repeatCell" type="d3p1:RepeatCell" nillable="true"/>
+	</objectType>
+	<objectType name="BatchRequestUpdateDimensionProperties">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="updateDimensionProperties" type="d3p1:UpdateDimensionProperties" nillable="true"/>
+	</objectType>
+	<objectType name="BatchUpdateAddProtectedRange">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="requests" type="d3p1:AddProtectedRangeRequests" upperBound="-1"/>
+		<property name="_dummy" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="BatchUpdateConditionalFormatRule">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="requests" type="d3p1:AddConditionalFormatRuleRequest" upperBound="-1"/>
+		<property name="_dummy" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="BatchUpdateDimensionProperties">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="requests" type="d3p1:BatchRequestUpdateDimensionProperties" upperBound="-1"/>
+		<property name="_dummy" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="BatchUpdateMergeCell">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="requests" type="d3p1:BatchRequestMergeCell" upperBound="-1"/>
+		<property name="_dummy" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="BatchUpdateRepeatCell">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="requests" type="d3p1:BatchRequestRepeatCell" upperBound="-1"/>
+		<property name="_dummy" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="BatchUpdateSheetProperties">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="requests" type="d3p1:BatchUpdateSheetPropertiesRequest" upperBound="-1"/>
+		<property name="_dummy" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="BatchUpdateSheetPropertiesRequest">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="updateSheetProperties" type="d3p1:UpdateSheetPropertiesRequest" nillable="true"/>
+	</objectType>
+	<objectType name="BooleanCondition">
+		<property name="type" type="xs:string" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="values" type="d3p1:ConditionValue" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="BooleanRule">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="condition" type="d3p1:BooleanCondition" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="format" type="d3p1:CellFormat" nillable="true"/>
+	</objectType>
+	<objectType name="CellData">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="userEnteredFormat" type="d3p1:CellFormat" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="dataValidation" type="d3p1:DataValidationRule" nillable="true"/>
+	</objectType>
+	<objectType name="CellFormat">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="backgroundColor" type="d3p1:Color" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="padding" type="d3p1:Padding" lowerBound="0" nillable="true"/>
+		<property name="horizontalAlignment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="verticalAlignment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="wrapStrategy" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="textFormat" type="d3p1:TextFormat" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="numberFormat" type="d3p1:NumberFormat" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="Color">
+		<property name="red" type="xs:string" nillable="true"/>
+		<property name="green" type="xs:string" nillable="true"/>
+		<property name="blue" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="ConditionValue">
+		<property name="userEnteredValue" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="ConditionalFormatRule">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="ranges" type="d3p1:GridRange" upperBound="-1" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="booleanRule" type="d3p1:BooleanRule" nillable="true"/>
+	</objectType>
+	<objectType name="DataValidationRule">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="condition" type="d3p1:BooleanCondition" nillable="true"/>
+		<property name="strict" type="xs:string" nillable="true"/>
+		<property name="inputMessage" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="DimensionProperties">
+		<property name="pixelSize" type="xs:int" nillable="true"/>
+	</objectType>
+	<objectType name="DimensionRange">
+		<property name="sheetId" type="xs:int" nillable="true"/>
+		<property name="dimension" type="xs:string" nillable="true"/>
+		<property name="startIndex" type="xs:int" nillable="true"/>
+		<property name="endIndex" type="xs:int" nillable="true"/>
+	</objectType>
+	<objectType name="Editors">
+		<property name="users" type="xs:string" upperBound="-1" nillable="true"/>
+		<property name="_dummy" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="File" ordered="false" sequenced="true">
+		<property name="name" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="mimeType" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="parents" type="xs:string" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="FileParent" ordered="false" sequenced="true">
+		<property name="kind" type="xs:string" nillable="true"/>
+		<property name="id" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="GridProperties">
+		<property name="rowCount" type="xs:int" nillable="true"/>
+		<property name="columnCount" type="xs:int" nillable="true"/>
+		<property name="frozenRowCount" type="xs:int" nillable="true"/>
+		<property name="frozenColumnCount" type="xs:int" nillable="true"/>
+	</objectType>
+	<objectType name="GridRange">
+		<property name="sheetId" type="xs:int" nillable="true"/>
+		<property name="startRowIndex" type="xs:int" nillable="true"/>
+		<property name="endRowIndex" type="xs:int" nillable="true"/>
+		<property name="startColumnIndex" type="xs:int" nillable="true"/>
+		<property name="endColumnIndex" type="xs:int" nillable="true"/>
+	</objectType>
+	<objectType name="MergeCells">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="range" type="d3p1:GridRange" nillable="true"/>
+		<property name="mergeType" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="NumberFormat">
+		<property name="type" type="xs:string" nillable="true"/>
+		<property name="pattern" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="Padding">
+		<property name="top" type="xs:int" nillable="true"/>
+		<property name="right" type="xs:int" nillable="true"/>
+		<property name="bottom" type="xs:int" nillable="true"/>
+		<property name="left" type="xs:int" nillable="true"/>
+	</objectType>
+	<objectType name="Permissions">
+		<property name="role" type="xs:string" nillable="true"/>
+		<property name="type" type="xs:string" nillable="true"/>
+		<property name="emailAddress" type="xs:string" nillable="true"/>
+		<property name="sendNotificationEmail" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="ProtectedRange">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="range" type="d3p1:GridRange" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="unprotectedRanges" type="d3p1:GridRange" upperBound="-1" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="editors" type="d3p1:Editors" nillable="true"/>
+	</objectType>
+	<objectType name="RepeatCell">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="range" type="d3p1:GridRange" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="cell" type="d3p1:CellData" nillable="true"/>
+		<property name="fields" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="Sheet">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="properties" type="d3p1:SheetProperties"/>
+	</objectType>
+	<objectType name="SheetProperties">
+		<property name="sheetId" type="xs:int" nillable="true"/>
+		<property name="title" type="xs:string" nillable="true"/>
+		<property name="index" type="xs:int" nillable="true"/>
+		<property name="sheetType" type="xs:string" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="gridProperties" type="d3p1:GridProperties" nillable="true"/>
+	</objectType>
+	<objectType name="Spreadsheet">
+		<property name="spreadsheetId" type="xs:string" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="properties" type="d3p1:SpreadsheetProperties"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="sheets" type="d3p1:Sheet" upperBound="-1"/>
+		<property name="spreadsheetUrl" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="SpreadsheetProperties">
+		<property name="title" type="xs:string" nillable="true"/>
+		<property name="locale" type="xs:string" nillable="true"/>
+		<property name="autoRecalc" type="xs:string" nillable="true"/>
+		<property name="timeZone" type="xs:string" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="defaultFormat" type="d3p1:CellFormat"/>
+	</objectType>
+	<objectType name="SpreadsheetSheets">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="sheets" type="d3p1:Sheet" upperBound="-1"/>
+	</objectType>
+	<objectType name="TextFormat">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="foregroundColor" type="d3p1:Color" lowerBound="0" nillable="true"/>
+		<property name="fontFamily" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="fontSize" type="xs:int" lowerBound="0" nillable="true"/>
+		<property name="bold" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="italic" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="strikethrough" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="underline" type="xs:boolean" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="UpdateDimensionProperties">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="range" type="d3p1:DimensionRange" nillable="true"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="properties" type="d3p1:DimensionProperties" nillable="true"/>
+		<property name="fields" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="UpdateSheetPropertiesRequest">
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="properties" type="d3p1:SheetProperties" nillable="true"/>
+		<property name="fields" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="ValueRange">
+		<property name="range" type="xs:string"/>
+		<property name="majorDimension" type="xs:string"/>
+		<property xmlns:d3p1="http://www.googlespreadsheet.org" name="values" type="d3p1:ValueRangeValues" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="ValueRangeOneRow">
+		<property name="range" type="xs:string"/>
+		<property name="majorDimension" type="xs:string"/>
+		<property name="values" type="xs:string" upperBound="-1"/>
+	</objectType>
+	<objectType name="ValueRangeValues" open="true" sequenced="true">
+		<property name="values" type="xs:string" upperBound="-1"/>
+	</objectType>
+</package>

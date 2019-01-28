@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Report uuid="c8ec105e-47fe-45aa-a927-4f8734408be4">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.АнализСубконто" category="Object">
+				<xr:TypeId>c6801b45-5bfe-4c8c-8a39-6be9d8a1b259</xr:TypeId>
+				<xr:ValueId>cf00dd31-04ce-4e2f-941e-4ff5604044c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.АнализСубконто" category="Manager">
+				<xr:TypeId>2f24a932-945c-4fc2-8f7b-f1fe7ba6ccc6</xr:TypeId>
+				<xr:ValueId>838622a6-8be7-4550-a8f7-398cf252bed9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АнализСубконто</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="eeb2c45a-b224-4db6-8161-15f4084c2759">
+				<Properties>
+					<Name>ПоказательВР</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ad686cc3-8e46-42e6-ab5f-7812e310487b">
+				<Properties>
+					<Name>ПоказательБУ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="78189a3b-890c-42d7-8c94-4a7ffd6c2835">
+				<Properties>
+					<Name>Периодичность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="834a39b8-1c5b-4f9e-b071-83e0cc12a47d">
+				<Properties>
+					<Name>НачалоПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8dc64b79-27c8-4238-8858-78abef23ea1c">
+				<Properties>
+					<Name>КонецПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f70f854a-f22b-4b87-b36d-813228631cb3">
+				<Properties>
+					<Name>СписокВидовСубконто</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>v8:ValueListType</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c06c878a-9e98-4699-aa0d-7ffb12d2d9c9">
+				<Properties>
+					<Name>ПоСубсчетам</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b1353ae7-d22e-4aa1-9d6f-e3c49f8ec1d3">
+				<Properties>
+					<Name>ПоказательНУ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5acb40db-a605-4f56-a94f-4c99d26e4770">
+				<Properties>
+					<Name>ПоказательПР</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="044eac27-45df-4fae-8700-4e6ea7769338">
+				<Properties>
+					<Name>ПоказательКонтроль</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f9e8d296-7811-494f-be57-d28546ac6bf6">
+				<Properties>
+					<Name>ПоказательВалютнаяСумма</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f9a2c38b-58bc-4b7f-8390-483268838a85">
+				<Properties>
+					<Name>ПоказательКоличество</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a17cb958-a440-4312-aca8-263b612a2cf8">
+				<Properties>
+					<Name>РазвернутоеСальдо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1ec2cfa3-deec-4e05-9276-3352dcacd408">
+				<Properties>
+					<Name>РазмещениеДополнительныхПолей</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="828e5e72-8f89-465a-a293-1018c058abba">
+				<InternalInfo>
+					<xr:GeneratedType name="ReportTabularSection.АнализСубконто.Группировка" category="TabularSection">
+						<xr:TypeId>e1780984-8143-4ee0-98b4-f9f4971912fb</xr:TypeId>
+						<xr:ValueId>0d3c40e4-2eda-4f6e-9da4-084ce3e4c870</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ReportTabularSectionRow.АнализСубконто.Группировка" category="TabularSectionRow">
+						<xr:TypeId>5c5b3440-1a7e-416e-948e-f77f89fa7506</xr:TypeId>
+						<xr:ValueId>2d19231c-1643-488c-938a-5b25e184af54</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Группировка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="94de1e15-7d41-4b67-a018-198cd9301b2b">
+						<Properties>
+							<Name>Использование</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d8289545-f7f4-4e02-b3b3-016f9eef3c5b">
+						<Properties>
+							<Name>Представление</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2cacbc7e-ed98-4d83-acdb-876d34158215">
+						<Properties>
+							<Name>ТипГруппировки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>1</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="4ae8ad48-761a-4d72-83af-b2a8e283c015">
+				<InternalInfo>
+					<xr:GeneratedType name="ReportTabularSection.АнализСубконто.ДополнительныеПоля" category="TabularSection">
+						<xr:TypeId>33afabbf-b7e6-41b3-8994-06587aded5df</xr:TypeId>
+						<xr:ValueId>6420af8c-6f37-432e-b649-51cfa7c1cb01</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ReportTabularSectionRow.АнализСубконто.ДополнительныеПоля" category="TabularSectionRow">
+						<xr:TypeId>7474c1f1-38f3-47a0-bc85-819dc79452d2</xr:TypeId>
+						<xr:ValueId>3ac700c0-65dd-44e7-85ae-b08ddbb6acc2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДополнительныеПоля</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="23f9d399-ddc6-465b-9640-4ace19af0549">
+						<Properties>
+							<Name>Использование</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fe46cc68-d606-4748-8236-999f0d7df832">
+						<Properties>
+							<Name>Представление</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e4eab55c-a6fd-4ea1-8192-b869f319316c">
+						<Properties>
+							<Name>Поле</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаОтчета</Form>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

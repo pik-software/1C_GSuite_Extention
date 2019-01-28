@@ -1,0 +1,18 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.GoogleAPI_GoogleDrive.org">
+	<objectType name="GoogleDriveFile">
+		<property name="title" type="xs:string"/>
+		<property name="mimeType" type="xs:string"/>
+		<property xmlns:d3p1="http://www.GoogleAPI_GoogleDrive.org" name="parents" type="d3p1:ParentsFile" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="ParentsFile">
+		<property name="id" type="xs:string"/>
+		<property name="isRoot" type="xs:boolean"/>
+		<property name="kind" type="xs:string"/>
+		<property name="parentLink" type="xs:string"/>
+		<property name="selfLink" type="xs:string"/>
+	</objectType>
+	<objectType name="GoogleDriveFileNotParent">
+		<property name="title" type="xs:string"/>
+		<property name="mimeType" type="xs:string"/>
+	</objectType>
+</package>

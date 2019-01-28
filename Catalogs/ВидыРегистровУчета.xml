@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Catalog uuid="6d8c35a1-7ec1-4ef7-bd26-4d639d8e24a7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыРегистровУчета" category="Object">
+				<xr:TypeId>1aac4cb6-5ad9-4f6b-a7de-65a04f40eb64</xr:TypeId>
+				<xr:ValueId>80aeac81-090e-4b46-9b2a-f0bd8bbffad6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыРегистровУчета" category="Ref">
+				<xr:TypeId>ebc31fb6-eeff-4f02-858b-46366c1ef23a</xr:TypeId>
+				<xr:ValueId>aedc0182-0a59-4d3e-8d75-395a8c2f374f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыРегистровУчета" category="Selection">
+				<xr:TypeId>0529ba50-6b97-469e-b8c2-6e1f27320b30</xr:TypeId>
+				<xr:ValueId>2985883e-da03-46fc-9d99-f7b03e9dfdec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыРегистровУчета" category="List">
+				<xr:TypeId>9f3d7a60-6613-42c0-9fd5-12efd3b81e62</xr:TypeId>
+				<xr:ValueId>98ee1f91-111c-4fee-bc92-b79a1e7dfb0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыРегистровУчета" category="Manager">
+				<xr:TypeId>7b8ad2b1-d21d-4040-8648-afefe2343899</xr:TypeId>
+				<xr:ValueId>21387687-96e6-4257-9278-0e8eff90cb5c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыРегистровУчета</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
