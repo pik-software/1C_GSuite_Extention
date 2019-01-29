@@ -8,7 +8,9 @@
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<ShowTitle>false</ShowTitle>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
@@ -189,7 +191,7 @@
 								<Presentation>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Google таблица (*.gsheet)</v8:content>
+										<v8:content>Google Таблица (*.gsheet)</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">xlsx</Value>
@@ -202,7 +204,7 @@
 								<Presentation>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Google документы (*.gdoc)</v8:content>
+										<v8:content>Google Документ (*.gdoc)</v8:content>
 									</v8:item>
 								</Presentation>
 								<Value xsi:type="xs:string">docx</Value>

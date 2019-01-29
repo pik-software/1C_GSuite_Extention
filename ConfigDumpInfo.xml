@@ -8,7 +8,7 @@
 		<Metadata name="CommonCommand.GoogleAPI_СохранитьОтчетСФормы" id="b4a7aa03-f324-4ef6-a4a7-aeef77923ecd" configVersion="1517fbc5a78eab0235ef95fe75789f171ea8883b"/>
 		<Metadata name="CommonCommand.GoogleAPI_СохранитьОтчетСФормы.CommandModule" id="b4a7aa03-f324-4ef6-a4a7-aeef77923ecd.2" configVersion="9044f4b3a1c7c30b0c2a25b3c08f6739652f68db"/>
 		<Metadata name="CommonForm.GoogleAPI_ФормаВводаИмениФайла" id="f2aaad89-5054-4135-867a-89c67df3b946" configVersion="05ce2d5951a914a959d7875af9350c145807ba00"/>
-		<Metadata name="CommonForm.GoogleAPI_ФормаВводаИмениФайла.Form" id="f2aaad89-5054-4135-867a-89c67df3b946.0" configVersion="b16c8096affb6b88961474a623906ec22ae2e5f9"/>
+		<Metadata name="CommonForm.GoogleAPI_ФормаВводаИмениФайла.Form" id="f2aaad89-5054-4135-867a-89c67df3b946.0" configVersion="09d9fdb9b309296de53595ec5003a133cb1bbb9c"/>
 		<Metadata name="CommonForm.ПечатьДокументов" id="2675bd0c-d196-4123-bd5c-74bd07259709" configVersion="eca4ff1ee771f301bc17a5d119a42ff6d240ac12"/>
 		<Metadata name="CommonForm.ПечатьДокументов.Form" id="2675bd0c-d196-4123-bd5c-74bd07259709.0" configVersion="a1ded8787e260a77fe3976605056359e4aee6be5"/>
 		<Metadata name="CommonModule.GoogleAPI_Авторизация" id="f98d7d96-7f97-4ea9-a64b-938070cfad82" configVersion="b3df016b1144d9d80aa6c247b5758d7ded8cd7c8"/>
@@ -49,7 +49,7 @@
 			<Metadata name="DataProcessor.GoogleAPI_АвторизацияПользователя.Attribute.ТокенОбновления" id="d35f1d84-1e5c-4d9a-aa8e-687300788e9b"/>
 		</Metadata>
 		<Metadata name="DataProcessor.GoogleAPI_АвторизацияПользователя.Form.Форма" id="51ea4201-a539-46cf-acfb-1785885d1605" configVersion="5732efb31126033bfba843132c969f970fd47110"/>
-		<Metadata name="DataProcessor.GoogleAPI_АвторизацияПользователя.Form.Форма.Form" id="51ea4201-a539-46cf-acfb-1785885d1605.0" configVersion="165a952420c0bbed6b2aeddb2325b8aa824b6eba"/>
+		<Metadata name="DataProcessor.GoogleAPI_АвторизацияПользователя.Form.Форма.Form" id="51ea4201-a539-46cf-acfb-1785885d1605.0" configVersion="045a388f9bd52058e3a0d791f6ba6b91a92d506c"/>
 		<Metadata name="DataProcessor.GoogleAPI_СохранитьПараметрыВКонфу" id="b7cc674f-c9e4-4362-aad2-6dfb424e278f" configVersion="11c98c6741436216e989b88d0e54833016ab6213">
 			<Metadata name="DataProcessor.GoogleAPI_СохранитьПараметрыВКонфу.Attribute.ИмяФайла" id="4742d0f3-e1be-4c03-99ab-3378df1e005f"/>
 			<Metadata name="DataProcessor.GoogleAPI_СохранитьПараметрыВКонфу.Attribute.ид_клиента" id="5d946367-e7e6-4da8-9da9-d252d05d9934"/>
