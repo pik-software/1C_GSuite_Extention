@@ -60,6 +60,7 @@
 			<CommonPicture>Сформировать</CommonPicture>
 			<CommonPicture>Сумма</CommonPicture>
 			<CommonPicture>НезавершившаясяПроверка</CommonPicture>
+			<Role>GoogleAPI_ПраваНаОбъектыРасширения</Role>
 			<CommonModule>GoogleAPI_Авторизация</CommonModule>
 			<CommonModule>GoogleAPI_АвторизацияКлиент</CommonModule>
 			<CommonModule>GoogleAPI_ОбщегоНазначения</CommonModule>

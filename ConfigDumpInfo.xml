@@ -40,7 +40,7 @@
 		<Metadata name="CommonPicture.Сумма" id="997255f7-30dd-4c56-a4c1-2b985191ab20" configVersion="dd9f10a1ba2beb865168552bcdd4eeb6e40c804d"/>
 		<Metadata name="CommonPicture.Сформировать" id="908adbcd-6be2-4cea-8a7f-6141a1f76a94" configVersion="76959aa38f34ce715d17102086e54151a21bb3e9"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="5139540f-3423-46fc-bebd-4234f85d7f49" configVersion="f4a3224305bceb4c47b5e9c18b856663af877265"/>
-		<Metadata name="Configuration.РаботаСGoogleAPI" id="f0fdebfc-6fc7-4bbf-9a94-7c899035ac05" configVersion="402c0ba465d793dbddead50cd4988841d0f61eea"/>
+		<Metadata name="Configuration.РаботаСGoogleAPI" id="f0fdebfc-6fc7-4bbf-9a94-7c899035ac05" configVersion="5acc0d8d701c396dfaa35706b7e6ac3fa3721f34"/>
 		<Metadata name="Constant.ИспользоватьНесколькоОрганизаций" id="d9b5286a-1ea5-4b08-a21d-7f9eeaf153d4" configVersion="bc7f1bbfc8afe1153ababf2d98f1580ccdc9106c"/>
 		<Metadata name="DataProcessor.GoogleAPI_АвторизацияПользователя" id="c2abaa79-2e5b-48db-ba89-3bfad055af34" configVersion="b4b4d8e3ab8e9fa373c3991c4ef265ac08b343a5">
 			<Metadata name="DataProcessor.GoogleAPI_АвторизацияПользователя.Attribute.КодДоступа" id="63cd2626-b117-4524-8afc-fdec838d0b85"/>
@@ -282,6 +282,8 @@
 		</Metadata>
 		<Metadata name="Report.ШахматнаяВедомость.Form.ФормаОтчета" id="44c66585-0aee-4082-8b9f-00a281163015" configVersion="55f880834307213736320e1870cd915926658db3"/>
 		<Metadata name="Report.ШахматнаяВедомость.Form.ФормаОтчета.Form" id="44c66585-0aee-4082-8b9f-00a281163015.0" configVersion="54378259c22261e9af5a17d9956306a5f2cf3ddb"/>
+		<Metadata name="Role.GoogleAPI_ПраваНаОбъектыРасширения" id="78642b4d-bdcf-4ab0-9fae-54ba93cf9dfb" configVersion="78c47a02f397b5030b06afeea5a2f8a857b5960b"/>
+		<Metadata name="Role.GoogleAPI_ПраваНаОбъектыРасширения.Rights" id="78642b4d-bdcf-4ab0-9fae-54ba93cf9dfb.0" configVersion="16364270477e3eb6d71ce19aeefca76cea6a1034"/>
 		<Metadata name="StyleItem.БыстрыеОтборыФонГруппы" id="095ee828-d5d4-4c45-af0e-eb559f3c4d66" configVersion="351dfb929d9495697e5883a56063213a8ae1eec8"/>
 		<Metadata name="StyleItem.ЦветФонаНекорректногоКонтрагента" id="29c98531-4e25-4f6b-b5e7-7cbdd143d7de" configVersion="77b8b1eb5d194b379279a7d4ebf6929eb827b63d"/>
 		<Metadata name="XDTOPackage.GoogleAPI_GoogleDrive" id="084bb41f-cdc7-4aed-9ed2-91058a9233f0" configVersion="6666eaa7e9102e25cffb8fd832fa76650373f865"/>
