@@ -14,10 +14,12 @@
 								"https://www.googleapis.com/auth/drive.apps.readonly " + 
 								"https://www.googleapis.com/auth/drive.file " +
 								"https://www.googleapis.com/auth/drive.appdata " + 
+								"https://www.googleapis.com/auth/drive.file " +
 								"https://www.googleapis.com/auth/drive.metadata " + 
 								"https://www.googleapis.com/auth/drive.metadata.readonly " +
 								"https://www.googleapis.com/auth/drive.photos.readonly " +
 								"https://www.googleapis.com/auth/drive.readonly " + 
+								"https://www.googleapis.com/auth/spreadsheets " +
 								"https://www.googleapis.com/auth/spreadsheets.readonly"; 
 	
 	АдресАвторизации = "https://accounts.google.com/o/oauth2/auth?";
@@ -30,13 +32,16 @@
 &НаКлиенте
 Процедура HTML_ПолеДокументСформирован(Элемент)
 	
-	ПоискВхождения = СтрНайти(Элементы.HTML_Поле.Документ.URLUnencoded, "http://localhost/?code=");
+	СтрокаURL = Элементы.HTML_Поле.Документ.URL;
+	ПоискВхождения = СтрНайти(СтрокаURL, "http://localhost/?code=");
 	
 	Если ПоискВхождения = 0 Тогда 
 		Возврат;
-	КонецЕсли;	
+	КонецЕсли;
 	
-	Объект.КодДоступа = Сред(Элементы.HTML_Поле.Документ.URLUnencoded, ПоискВхождения + 23);
+	ПоискКонцаКода = СтрНайти(СтрокаURL, "&scope=",,,1);
+	
+	Объект.КодДоступа = Сред(СтрокаURL, ПоискВхождения + 23, ?(ПоискКонцаКода = 0, Неопределено, ПоискКонцаКода - 24));
 	Если ПолучитьТокены() Тогда 
 		Возврат;
 	КонецЕсли;	

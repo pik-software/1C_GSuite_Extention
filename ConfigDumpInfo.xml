@@ -8,11 +8,11 @@
 		<Metadata name="CommonCommand.GoogleAPI_СохранитьОтчетСФормы" id="b4a7aa03-f324-4ef6-a4a7-aeef77923ecd" configVersion="1517fbc5a78eab0235ef95fe75789f171ea8883b"/>
 		<Metadata name="CommonCommand.GoogleAPI_СохранитьОтчетСФормы.CommandModule" id="b4a7aa03-f324-4ef6-a4a7-aeef77923ecd.2" configVersion="9044f4b3a1c7c30b0c2a25b3c08f6739652f68db"/>
 		<Metadata name="CommonForm.GoogleAPI_ФормаВводаИмениФайла" id="f2aaad89-5054-4135-867a-89c67df3b946" configVersion="05ce2d5951a914a959d7875af9350c145807ba00"/>
-		<Metadata name="CommonForm.GoogleAPI_ФормаВводаИмениФайла.Form" id="f2aaad89-5054-4135-867a-89c67df3b946.0" configVersion="09d9fdb9b309296de53595ec5003a133cb1bbb9c"/>
+		<Metadata name="CommonForm.GoogleAPI_ФормаВводаИмениФайла.Form" id="f2aaad89-5054-4135-867a-89c67df3b946.0" configVersion="efd8ce03d7915b07b44da4b456efb4f9feaa4a91"/>
 		<Metadata name="CommonForm.ПечатьДокументов" id="2675bd0c-d196-4123-bd5c-74bd07259709" configVersion="eca4ff1ee771f301bc17a5d119a42ff6d240ac12"/>
 		<Metadata name="CommonForm.ПечатьДокументов.Form" id="2675bd0c-d196-4123-bd5c-74bd07259709.0" configVersion="a1ded8787e260a77fe3976605056359e4aee6be5"/>
 		<Metadata name="CommonModule.GoogleAPI_Авторизация" id="f98d7d96-7f97-4ea9-a64b-938070cfad82" configVersion="b3df016b1144d9d80aa6c247b5758d7ded8cd7c8"/>
-		<Metadata name="CommonModule.GoogleAPI_Авторизация.Module" id="f98d7d96-7f97-4ea9-a64b-938070cfad82.0" configVersion="b56d48386e446ed4bfdcb016e30d2cee62de4a1e"/>
+		<Metadata name="CommonModule.GoogleAPI_Авторизация.Module" id="f98d7d96-7f97-4ea9-a64b-938070cfad82.0" configVersion="78bcd2d4a77e7f325c59ca0b4a8ce25a4277cc49"/>
 		<Metadata name="CommonModule.GoogleAPI_АвторизацияКлиент" id="daee1570-7ace-4a34-af4c-63ddad616124" configVersion="28b124038000b2f78ced0bc0375f467880cd8aa7"/>
 		<Metadata name="CommonModule.GoogleAPI_АвторизацияКлиент.Module" id="daee1570-7ace-4a34-af4c-63ddad616124.0" configVersion="fb1f58def191cf65e176583bb6b9def02d7ecc3e"/>
 		<Metadata name="CommonModule.GoogleAPI_ОбщегоНазначения" id="a720f3d8-7c9d-4488-91bb-bf8eaf84b2c3" configVersion="049f03be74a2d979cc7c40ec33defa8245ddee9e"/>
@@ -40,7 +40,7 @@
 		<Metadata name="CommonPicture.Сумма" id="997255f7-30dd-4c56-a4c1-2b985191ab20" configVersion="dd9f10a1ba2beb865168552bcdd4eeb6e40c804d"/>
 		<Metadata name="CommonPicture.Сформировать" id="908adbcd-6be2-4cea-8a7f-6141a1f76a94" configVersion="76959aa38f34ce715d17102086e54151a21bb3e9"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="5139540f-3423-46fc-bebd-4234f85d7f49" configVersion="f4a3224305bceb4c47b5e9c18b856663af877265"/>
-		<Metadata name="Configuration.РаботаСGoogleAPI" id="f0fdebfc-6fc7-4bbf-9a94-7c899035ac05" configVersion="5acc0d8d701c396dfaa35706b7e6ac3fa3721f34"/>
+		<Metadata name="Configuration.РаботаСGoogleAPI" id="f0fdebfc-6fc7-4bbf-9a94-7c899035ac05" configVersion="bdbc1ded30bfe14bf9a77e6b916a7551c48a21a4"/>
 		<Metadata name="Constant.ИспользоватьНесколькоОрганизаций" id="d9b5286a-1ea5-4b08-a21d-7f9eeaf153d4" configVersion="bc7f1bbfc8afe1153ababf2d98f1580ccdc9106c"/>
 		<Metadata name="DataProcessor.GoogleAPI_АвторизацияПользователя" id="c2abaa79-2e5b-48db-ba89-3bfad055af34" configVersion="b4b4d8e3ab8e9fa373c3991c4ef265ac08b343a5">
 			<Metadata name="DataProcessor.GoogleAPI_АвторизацияПользователя.Attribute.КодДоступа" id="63cd2626-b117-4524-8afc-fdec838d0b85"/>
@@ -49,7 +49,7 @@
 			<Metadata name="DataProcessor.GoogleAPI_АвторизацияПользователя.Attribute.ТокенОбновления" id="d35f1d84-1e5c-4d9a-aa8e-687300788e9b"/>
 		</Metadata>
 		<Metadata name="DataProcessor.GoogleAPI_АвторизацияПользователя.Form.Форма" id="51ea4201-a539-46cf-acfb-1785885d1605" configVersion="5732efb31126033bfba843132c969f970fd47110"/>
-		<Metadata name="DataProcessor.GoogleAPI_АвторизацияПользователя.Form.Форма.Form" id="51ea4201-a539-46cf-acfb-1785885d1605.0" configVersion="045a388f9bd52058e3a0d791f6ba6b91a92d506c"/>
+		<Metadata name="DataProcessor.GoogleAPI_АвторизацияПользователя.Form.Форма.Form" id="51ea4201-a539-46cf-acfb-1785885d1605.0" configVersion="6e1b67113489ecd68338e59497a11dbb5de48758"/>
 		<Metadata name="DataProcessor.GoogleAPI_СохранитьПараметрыВКонфу" id="b7cc674f-c9e4-4362-aad2-6dfb424e278f" configVersion="11c98c6741436216e989b88d0e54833016ab6213">
 			<Metadata name="DataProcessor.GoogleAPI_СохранитьПараметрыВКонфу.Attribute.ИмяФайла" id="4742d0f3-e1be-4c03-99ab-3378df1e005f"/>
 			<Metadata name="DataProcessor.GoogleAPI_СохранитьПараметрыВКонфу.Attribute.ид_клиента" id="5d946367-e7e6-4da8-9da9-d252d05d9934"/>
@@ -283,7 +283,7 @@
 		<Metadata name="Report.ШахматнаяВедомость.Form.ФормаОтчета" id="44c66585-0aee-4082-8b9f-00a281163015" configVersion="55f880834307213736320e1870cd915926658db3"/>
 		<Metadata name="Report.ШахматнаяВедомость.Form.ФормаОтчета.Form" id="44c66585-0aee-4082-8b9f-00a281163015.0" configVersion="54378259c22261e9af5a17d9956306a5f2cf3ddb"/>
 		<Metadata name="Role.GoogleAPI_ПраваНаОбъектыРасширения" id="78642b4d-bdcf-4ab0-9fae-54ba93cf9dfb" configVersion="78c47a02f397b5030b06afeea5a2f8a857b5960b"/>
-		<Metadata name="Role.GoogleAPI_ПраваНаОбъектыРасширения.Rights" id="78642b4d-bdcf-4ab0-9fae-54ba93cf9dfb.0" configVersion="16364270477e3eb6d71ce19aeefca76cea6a1034"/>
+		<Metadata name="Role.GoogleAPI_ПраваНаОбъектыРасширения.Rights" id="78642b4d-bdcf-4ab0-9fae-54ba93cf9dfb.0" configVersion="2dcaa8c9aee5cc0ad760c6f57987fec7ec0e0473"/>
 		<Metadata name="StyleItem.БыстрыеОтборыФонГруппы" id="095ee828-d5d4-4c45-af0e-eb559f3c4d66" configVersion="351dfb929d9495697e5883a56063213a8ae1eec8"/>
 		<Metadata name="StyleItem.ЦветФонаНекорректногоКонтрагента" id="29c98531-4e25-4f6b-b5e7-7cbdd143d7de" configVersion="77b8b1eb5d194b379279a7d4ebf6929eb827b63d"/>
 		<Metadata name="XDTOPackage.GoogleAPI_GoogleDrive" id="084bb41f-cdc7-4aed-9ed2-91058a9233f0" configVersion="6666eaa7e9102e25cffb8fd832fa76650373f865"/>
