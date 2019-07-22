@@ -4,7 +4,8 @@
 	
 	ЧастьЗапроса = "response_type=code"+"&";
 	ЧастьЗапроса = ЧастьЗапроса + "client_id="+ Параметры.ид_клиента + "&";
-	ЧастьЗапроса = ЧастьЗапроса + "redirect_uri=http://localhost" + "&";
+	//ЧастьЗапроса = ЧастьЗапроса + "redirect_uri=http://localhost" + "&";
+	ЧастьЗапроса = ЧастьЗапроса + "redirect_uri=urn:ietf:wg:oauth:2.0:oob" + "&";
 	ЧастьЗапроса = ЧастьЗапроса + "access_type=offline"+"&";
 	
 	//scope для работы с сервисами google
@@ -14,12 +15,10 @@
 								"https://www.googleapis.com/auth/drive.apps.readonly " + 
 								"https://www.googleapis.com/auth/drive.file " +
 								"https://www.googleapis.com/auth/drive.appdata " + 
-								"https://www.googleapis.com/auth/drive.file " +
 								"https://www.googleapis.com/auth/drive.metadata " + 
 								"https://www.googleapis.com/auth/drive.metadata.readonly " +
 								"https://www.googleapis.com/auth/drive.photos.readonly " +
 								"https://www.googleapis.com/auth/drive.readonly " + 
-								"https://www.googleapis.com/auth/spreadsheets " +
 								"https://www.googleapis.com/auth/spreadsheets.readonly"; 
 	
 	АдресАвторизации = "https://accounts.google.com/o/oauth2/auth?";
@@ -32,16 +31,15 @@
 &НаКлиенте
 Процедура HTML_ПолеДокументСформирован(Элемент)
 	
-	СтрокаURL = Элементы.HTML_Поле.Документ.URL;
-	ПоискВхождения = СтрНайти(СтрокаURL, "http://localhost/?code=");
-	
-	Если ПоискВхождения = 0 Тогда 
+	Если Не Сред(Элементы.HTML_Поле.Документ.title,1,13) = "Success code=" Тогда
 		Возврат;
+	КонецЕсли;	
+	
+	Объект.КодДоступа = Сред(Элементы.HTML_Поле.Документ.title,14);
+	ПоискScope = СтрНайти(Объект.КодДоступа, "&scope"); 			
+	Если ПоискScope <> 0 Тогда
+		Объект.КодДоступа = Лев(Объект.КодДоступа, ПоискScope - 1);
 	КонецЕсли;
-	
-	ПоискКонцаКода = СтрНайти(СтрокаURL, "&scope=",,,1);
-	
-	Объект.КодДоступа = Сред(СтрокаURL, ПоискВхождения + 23, ?(ПоискКонцаКода = 0, Неопределено, ПоискКонцаКода - 24));
 	Если ПолучитьТокены() Тогда 
 		Возврат;
 	КонецЕсли;	
@@ -77,7 +75,7 @@
 &НаКлиенте
 Функция ПолучитьТокены()
 	
-	СтрокаЗапроса = СтрШаблон("client_id=%1&client_secret=%2&grant_type=authorization_code&code=%3&redirect_uri=http://localhost", 
+	СтрокаЗапроса = СтрШаблон("client_id=%1&client_secret=%2&grant_type=authorization_code&code=%3&redirect_uri=urn:ietf:wg:oauth:2.0:oob", 
 		Параметры.ид_клиента, 
 		Параметры.секрет_клиента, 
 		Объект.КодДоступа);
